@@ -1,0 +1,116 @@
+.nav {
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    background-color: #0E7E83;
+    margin-left: -400px;
+    margin-top: -8px;
+    position: fixed;
+    width: 200vw ;
+}
+.nav a{
+    display: none;
+}
+.nav input{
+    display: none;
+}
+select{
+    display: none;
+}
+#navbar{
+    margin-left: 300px;
+}
+/* .nav button{
+    display: none;
+} */
+.i2{
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    width: 400px;
+    height: 30px;
+}
+.cat2{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(4, 300px);
+    margin-left: 50px;
+}
+.cat1{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 270px);
+    margin-left: 10px;
+    margin: 100px 10px;
+    gap: 0px;
+}
+.cat1 img{
+    width: 300px;
+    height: 300px;
+}
+.interior,
+.exterior {
+
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(3, 250px);
+}
+#fourth-section {
+    width: 88%;
+    margin-left: -100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.interior img {
+    width: 300px;
+}
+
+.exterior img {
+    width: 300px;
+}
+.pre-footer {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #52999da3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer {
+    width: 100%;
+    margin-left: 0px;
+    background-color: #68c0c5c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 25px;
+}
+
+.after {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #52999da3;
+    gap: 20px;
+}
+
+.after img {
+    width: 42px;
+    height: 42px;
+    border: none;
+    padding: 25px;
+}
+.h{
+    display: none;
+}

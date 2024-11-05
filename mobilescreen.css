@@ -1,0 +1,12 @@
+body{
+    background-image: url(Rectangle\ 11.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#right1, .rect{
+    display: none;
+}
+.container{
+    margin: 0 auto;
+}

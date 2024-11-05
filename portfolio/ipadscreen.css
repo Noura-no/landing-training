@@ -1,0 +1,30 @@
+.nav {
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+    background-color: #0E7E83;
+    margin-left: -400px;
+    margin-top: -8px;
+    position: fixed;
+    width: 200vw ;
+}
+.nav a{
+    display: none;
+}
+#navbar{
+    margin-left: 300px;
+}
+.nav input{
+    display: none;
+}
+select{
+    display: none;
+}
+.second-container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 100px;
+}

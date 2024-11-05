@@ -1,0 +1,126 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(157, 192, 185, 0.915);
+}
+
+#first-section {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: -100px;
+    margin-left: 220px;
+}
+
+#right1 {
+    width: 500px;
+    height: 500px;
+}
+
+#left1 {
+    background-color: #EEF9F3;
+    width: 500px;
+    height: 600px;
+
+}
+
+h1 {
+    font-family: 'Lato';
+    color: #121C17;
+    font-size: 40px;
+    margin: 0px;
+    padding: 12px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato';
+    color: #121C17;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+#first-img {
+    width: 70px;
+    height: 70px;
+    margin: 10px 210px;
+}
+
+#second-img {
+    width: 500px;
+    height: 600px;
+    margin-top: -50px;
+}
+
+.rect {
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 14%;
+    left: 0%;
+    margin-top: -150px;
+    margin-left: 200px;
+    background: rgb(7, 65, 67);
+    background: linear-gradient(70deg, rgba(7, 65, 67, 1) 0%, rgba(14, 126, 131, 1) 100%);
+    margin: 20px auto;
+}
+
+.form {
+    width: 400px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Inter'; 
+}
+
+input{
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #2BE784;
+    color: #121C17;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px 120px;
+   
+}
+
+.check {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+select{
+    width:195px ;
+    height: 20px;
+    margin: 2px;
+    border: #121C17 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.city{
+display: grid;
+grid-template-columns: repeat(2,200px);
+grid-template-rows: repeat(2,30px);
+}

@@ -1,0 +1,263 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(157, 192, 185, 0.915);
+}
+
+#first-section {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    left: 0%;
+    margin-top: -100px;
+    margin-left: 220px;
+}
+
+#right1 {
+    width: 500px;
+    height: 500px;
+}
+
+#left1 {
+    background-color: #EEF9F3;
+    width: 500px;
+    height: 540px;
+
+}
+
+h1 {
+    font-family: 'Lato';
+    color: #121C17;
+    font-size: 65px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato';
+    color: #121C17;
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
+#first-img {
+    width: 75px;
+    height: 70px;
+    margin: 10px 200px;
+}
+
+#second-img {
+    width: 500px;
+    height: 520px;
+}
+
+.rect {
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    margin-top: -150px;
+    margin-left: 200px;
+    background: rgb(7, 65, 67);
+    background: linear-gradient(70deg, rgba(7, 65, 67, 1) 0%, rgba(14, 126, 131, 1) 100%);
+    margin: 20px auto;
+}
+
+.form {
+    width: 400px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: 'Inter';
+}
+
+input {
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: #2BE784;
+    color: #121C17;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 150px;
+}
+
+.check {
+    font-size: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu .toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    background: #5c92ded4;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 20%;
+}
+
+.menu .toggle:hover{
+   transform: rotate(180deg);
+   transition: 500ms;
+}
+
+.menu .toggle.active {
+    background: #ff7700;
+    color: #207893;
+}
+
+.menu .toggle::before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.menu .toggle.active::before {
+    content: "\f00d";
+}
+
+@media (max-width: 767px) {
+    .navigation {
+        left: -60px;
+    }
+
+    .navigation.active {
+        left: 0px;
+        width: 100%;
+    }
+}
+.navigation h1 {
+    position: absolute;
+    top: -40px;
+    left: 180px;
+    font-size: 20px;
+    color: #02192e;
+    opacity: 0.5;
+}
+
+
+
+.navigation {
+    position: fixed;
+    top: 80px;
+    left: -100px;
+    width: 60px;
+    height: 550px;
+    background: #5c92ded4;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 0px 20px 20px 0;
+    /* border: solid black 2px; */
+    z-index: 1;
+
+}
+
+.navigation:hover,
+.navigation.active {
+    width: 300px;
+}
+
+/* .navigation:hover h1{
+       color: #00060d;
+       padding: 0 70px;
+       transition: 500ms; */
+
+
+.navigation ul {
+    position: absolute;
+    top: -31px;
+    left: 35px;
+    width: 100%;
+    /* display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center; */
+}
+
+.navigation ul li {
+    position: relative;
+    top: 90px;
+    width: 100px;
+   height: 50px;
+    list-style: none;
+    transition: 1.5s;
+    margin: 10px 25px;
+    padding: 0 -50px;
+    /* text-align: center; */
+}
+
+.navigation ul li:hover {
+    background: #211e1e46;
+    width: 180px;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+   background-color: transparent;
+   border: none;
+}
+.navigation ul li  .title{
+   padding:0 20px;
+}
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon .fa {
+    font-size: 24px;
+}
+
+.navigation ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+}
